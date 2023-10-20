@@ -5,7 +5,7 @@ data = None
 
 def setup():
   p5.createCanvas(400, 400)
-  print('hello p5!')
+  print('assignment 2 template')
 
 def draw():
   p5.background(255)
@@ -26,6 +26,8 @@ def draw():
   p5.rotate(p5.radians(angle))
   # change mode to draw rectangles from center:
   p5.rectMode(p5.CENTER)
+  # fill with red color:
+  p5.fill(255, 0, 0)
   # draw rectangle at coordinate 0, 0 and 100 width and height:
   p5.rect(0, 0, 100, 100)
   # rectore graphical transformation:
